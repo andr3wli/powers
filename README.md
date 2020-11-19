@@ -1,6 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+**Note**: The real purpose of this R package is for learning how to make
+an R package.
+
 # powers
 
 <!-- badges: start -->

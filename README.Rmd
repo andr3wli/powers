@@ -20,7 +20,7 @@ __Note__: The real purpose of this R package is for learning how to make an R pa
 <!-- badges: start -->
 <!-- badges: end -->
 
-This is an R package that gives `sqrt` some friends by providing other power functions. The `purrr     package is used under the hood, so that either an atomic vector or a list can be input.
+This is an R package that gives `sqrt` some friends by providing other power functions. The `purrr` package is used under the hood, so that either an atomic vector or a list can be input.
 ## Installation
 
 You can install `powers` from GitHub via:

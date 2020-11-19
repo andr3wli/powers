@@ -11,7 +11,7 @@ an R package.
 <!-- badges: end -->
 
 This is an R package that gives `sqrt` some friends by providing other
-power functions. The \`purrr package is used under the hood, so that
+power functions. The `purrr` package is used under the hood, so that
 either an atomic vector or a list can be input. \#\# Installation
 
 You can install `powers` from GitHub via:
@@ -22,9 +22,10 @@ devtools::install_github("andr3wli/powers")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+See the vignette for more extensive use, but here’s an example:
 
 ``` r
-library(powers)
-## basic example code
+# library(powers)
+# reciprocal(2)
+# cube(list(1, 4, 5))
 ```

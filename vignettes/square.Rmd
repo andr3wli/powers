@@ -1,0 +1,28 @@
+---
+title: "square"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{square}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+__Note__: This package package is only meant for expository purposes -- although you might just find it handy!
+
+```{r setup}
+library(powers)
+```
+
+This is how square works:
+
+```{r}
+square(1:5)
+square(as.list(1:5))
+```
